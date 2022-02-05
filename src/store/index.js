@@ -27,6 +27,9 @@ export default createStore({
 				'https://demo-api.vsdev.space/api/farm/baby/form'
 			)
 			state.formPageForm = resp.data.fields
+			console.log(resp)
+			console.log(resp.data)
+			console.log(resp.data.fields)
 		},
 		async setfromPageItems(state) {
 			const resp = await axios.get('https://demo-api.vsdev.space/api/farm/baby')
