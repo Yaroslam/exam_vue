@@ -27,7 +27,9 @@
 			<a-col :span="8" v-for="item in items" :key="item.id">
 				<a-card :title="item.name" style="width: 300px">
 					<template #extra></template>
-					<img :src="item.img">
+					<img v-if="item.type === 'rabbit'" src="../assets/rabbit_img.jpg">
+					<img v-if="item.type === 'cow'" src="../assets/cow_img.jpg">
+					<img v-if="item.type === 'sheep'" src="../assets/sheep_img.jpg">
 					<p>Вес: {{ item.weight }} кг</p>
 					<p>Цвет: {{ item.color }}</p>
 					<p>Пол: {{ item.sex }}</p>
