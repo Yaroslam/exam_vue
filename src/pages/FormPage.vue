@@ -1,4 +1,5 @@
 <template>
+{{ data[field] }}
 	<a-button type="danger" @click="openForm" class="button">
 		Открыть форму
 	</a-button>
