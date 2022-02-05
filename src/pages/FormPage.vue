@@ -3,7 +3,6 @@
 		Открыть форму
 	</a-button>
 	<div>
-	{{ data[field] }}
 		<a-form class="form" v-if="isOpen">
 			<a-form-item
 				v-for="(field, index) in fields"
