@@ -1,9 +1,9 @@
 <template>
-{{ data[field] }}
 	<a-button type="danger" @click="openForm" class="button">
 		Открыть форму
 	</a-button>
 	<div>
+	{{ data[field].values }}
 		<a-form class="form" v-if="isOpen">
 			<a-form-item
 				v-for="(field, index) in fields"
