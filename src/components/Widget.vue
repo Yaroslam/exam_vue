@@ -5,9 +5,9 @@
 		</template>
 		<div>
 			<h3>У нас родилось</h3>
-			<p>пушистых коров: {{ items.cows }}</p>
-			<p>милых кроликов: {{ items.rabbits }}</p>
-			<p>крутых овц: {{ items.sheeps }}</p>
+			<p>коров: {{ items.cows }}</p>
+			<p>кроликов: {{ items.rabbits }}</p>
+			<p>овцeц: {{ items.sheeps }}</p>
 		</div>
 	</a-card>
 </template>
