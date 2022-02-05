@@ -1,7 +1,7 @@
 <template>
 	<a-card hoverable style="width: 160px">
 		<template #cover>
-			<img alt="example" src="../assets/rabbit_img.jpg" />
+			<img alt="example" src="../assets/left_widget_img (1).jpg" />
 		</template>
 		<div>
 			<h3>У нас родилось</h3>
